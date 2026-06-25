@@ -38,10 +38,29 @@
 #     print("low battery connect charger")
 # else:
 #     print("battery ok")
-agents = ["alpha", "bravo", "charly", "delta", "echo"]
-print(agents)
-print(agents[0], agents[4])
-print(agents[1])
-print(agents[0:4])
-agents.append("foxtrot")
-print(agents)
+# agents = ["alpha", "bravo", "charly", "delta", "echo"]
+# print(agents)
+# print(agents[0], agents[4])
+# print(agents[1])
+# print(agents[0:4])
+# agents.append("foxtrot")
+# print(agents)
+agent = {"name": "alpha",
+"level": 3, "active": True}
+print(agent)
+print(agent["name"])
+gett = agent.get("level")
+print(gett)
+geting = agent.get(0)
+print(geting)
+agent["score"] =95
+print(agent)
+agent["level"] = 5
+print(agent)
+agent.pop("active")
+print(agent)
+#כשאני כותב ככה אני מקבל רק את הערכים 
+print(agent["name"], agent["level"], agent["score"])
+#הפונקציה מפתח נותן לי את המפתחות עצמם
+print(agent.keys())
+print(agent.items())
