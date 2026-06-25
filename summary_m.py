@@ -44,23 +44,42 @@
 # print(agents[1])
 # print(agents[0:4])
 # agents.append("foxtrot")
-# print(agents)
-agent = {"name": "alpha",
-"level": 3, "active": True}
-print(agent)
-print(agent["name"])
-gett = agent.get("level")
-print(gett)
-geting = agent.get(0)
-print(geting)
-agent["score"] =95
-print(agent)
-agent["level"] = 5
-print(agent)
-agent.pop("active")
-print(agent)
-#כשאני כותב ככה אני מקבל רק את הערכים 
-print(agent["name"], agent["level"], agent["score"])
-#הפונקציה מפתח נותן לי את המפתחות עצמם
-print(agent.keys())
-print(agent.items())
+# # print(agents)
+# agent = {"name": "alpha",
+# "level": 3, "active": True}
+# print(agent)
+# print(agent["name"])
+# gett = agent.get("level")
+# print(gett)
+# geting = agent.get(0)
+# print(geting)
+# agent["score"] =95
+# print(agent)
+# agent["level"] = 5
+# print(agent)
+# agent.pop("active")
+# print(agent)
+# #כשאני כותב ככה אני מקבל רק את הערכים 
+# print(agent["name"], agent["level"], agent["score"])
+# #הפונקציה מפתח נותן לי את המפתחות עצמם
+# print(agent.keys())
+# print(agent.items())
+
+x = 1
+while x <= 5:
+    #מזרים לי את המספרים מאחד עד חמש כולל
+    print(x)
+    x += 1
+x = 0
+while x < 11:
+    if x %2 == 0:
+        #זה מזרים לי רק את המספרים הזוגיים
+        print(x)
+    x += 1
+agents = ["alpha", "bravo", "charlie"]
+i = 0
+while i < len(agents):
+    print(agents[i])
+        i += 1
+
+
