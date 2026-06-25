@@ -20,13 +20,21 @@
     # print("enter")
 #else:
     #print("not welcome")
-temperature = 38.2
-if temperature >= 37.5:
-    print("high temperature")
+# # temperature = 38.2
+# # if temperature >= 37.5:
+#     print("high temperature")
+# else:
+#     print("normal temperature")
+# number = int(input("what your number"))
+# if number % 2 == 0:
+#     print("even number")
+# else:
+#     print("odd number")
+battry = 15
+is_charging = True
+if battry < 20 and is_charging:
+    print("low battery charging now")
+elif battry < 20 and not isinstance:
+    print("low battery connect charger")
 else:
-    print("normal temperature")
-number = int(input("what your number"))
-if number % 2 == 0:
-    print("even number")
-else:
-    print("odd number")
+    print("battery ok")
