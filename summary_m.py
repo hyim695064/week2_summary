@@ -30,11 +30,18 @@
 #     print("even number")
 # else:
 #     print("odd number")
-battry = 15
-is_charging = True
-if battry < 20 and is_charging:
-    print("low battery charging now")
-elif battry < 20 and not isinstance:
-    print("low battery connect charger")
-else:
-    print("battery ok")
+# battry = 15
+# is_charging = True
+# if battry < 20 and is_charging:
+#     print("low battery charging now")
+# elif battry < 20 and not isinstance:
+#     print("low battery connect charger")
+# else:
+#     print("battery ok")
+agents = ["alpha", "bravo", "charly", "delta", "echo"]
+print(agents)
+print(agents[0], agents[4])
+print(agents[1])
+print(agents[0:4])
+agents.append("foxtrot")
+print(agents)
