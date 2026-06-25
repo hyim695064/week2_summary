@@ -65,21 +65,35 @@
 # print(agent.keys())
 # print(agent.items())
 
-x = 1
-while x <= 5:
-    #מזרים לי את המספרים מאחד עד חמש כולל
+# x = 1
+# while x <= 5:
+#     #מזרים לי את המספרים מאחד עד חמש כולל
+#     print(x)
+#     x += 1
+# x = 0
+# while x < 11:
+#     if x %2 == 0:
+#         #זה מזרים לי רק את המספרים הזוגיים
+#         print(x)
+#     x += 1
+# agents = ["alpha", "bravo", "charlie"]
+# i = 0
+# while i < len(agents):
+#     #זה מזרים לי כל אינדקס בנפרד
+#     print(agents[i])
+#     i += 1
+
+fruits = ["apple", "banana", "cherry"]
+for fruit in fruits:
+    #זה כדי להדפיס כל אינדקס בנפרד על ידי זה שהוא עולה כל פעם אינדקס
+    print(fruit)
+for x in range(1, 6):
+   #כאן הוא נותן לי את כל המספרים בלי להיתקע בלופ
     print(x)
-    x += 1
-x = 0
-while x < 11:
-    if x %2 == 0:
-        #זה מזרים לי רק את המספרים הזוגיים
-        print(x)
-    x += 1
-agents = ["alpha", "bravo", "charlie"]
-i = 0
-while i < len(agents):
-    print(agents[i])
-        i += 1
-
-
+for x in range(0, 10, 2):
+    #מדפיס לי רק מספרים זוגיים
+    print(x)
+fruits = ["apple", "banana", "chery"]
+for i, y in enumerate(fruits):
+   #מדפיס לי את הערך של האינדקס
+    print(i,y)
